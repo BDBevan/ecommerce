@@ -43,7 +43,13 @@ PUT /api/categories/
 DELETE /api/categories/
 - Delete a category by ID
 
+## Usage
+Run the server.js file using node. Insomnia can then be used for your GET, POST, PUT, DELETE tests. 
+
 ## Walkthrough video
-A walkthrough video demonstrating the functionality and acceptance criteria can be found here :
+Please see a walkthrough video demonstrating the functionality and acceptance criteria here :
+
+https://drive.google.com/file/d/1LGzDLarScTmDYetPAc3EapBbhs-WrBbq/view
+
 
 
