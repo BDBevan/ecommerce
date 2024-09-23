@@ -5,7 +5,6 @@ class Tag extends Model {}
 
 Tag.init(
   {
-    // define columns
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -14,7 +13,7 @@ Tag.init(
     },
     tag_name: {
       type: DataTypes.STRING,
-      allowNull: true, // Allow null since it's not specified as required
+      allowNull: true,
     },
   },
   {

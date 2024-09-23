@@ -3,7 +3,7 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    // Create the Categories table
+
     await queryInterface.createTable('categories', {
       id: {
         type: Sequelize.INTEGER,
@@ -27,7 +27,7 @@ module.exports = {
       },
     });
 
-    // Create the Products table
+   
     await queryInterface.createTable('products', {
       id: {
         type: Sequelize.INTEGER,
@@ -69,7 +69,7 @@ module.exports = {
       },
     });
 
-    // Create the Tags table
+
     await queryInterface.createTable('tags', {
       id: {
         type: Sequelize.INTEGER,
@@ -79,7 +79,7 @@ module.exports = {
       },
       tag_name: {
         type: Sequelize.STRING,
-        allowNull: true, // Adjust based on your requirements
+        allowNull: true, 
       },
       created_at: {
         type: Sequelize.DATE,
@@ -93,7 +93,7 @@ module.exports = {
       },
     });
 
-    // Create the ProductTags table (junction table)
+  
     await queryInterface.createTable('product_tags', {
       id: {
         type: Sequelize.INTEGER,
@@ -133,7 +133,7 @@ module.exports = {
   },
 
   async down(queryInterface, Sequelize) {
-    // Drop tables in reverse order to avoid foreign key constraints
+  
     await queryInterface.dropTable('product_tags');
     await queryInterface.dropTable('tags');
     await queryInterface.dropTable('products');

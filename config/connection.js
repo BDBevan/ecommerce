@@ -1,8 +1,7 @@
 require('dotenv').config();
-console.log('Process Environment:', process.env); // Add this line
+console.log('Process Environment:', process.env);
 const Sequelize = require('sequelize');
 
-// Log environment variables for debugging
 console.log('DB_USER:', process.env.DB_USER);
 console.log('DB_PASSWORD:', process.env.DB_PASSWORD);
 console.log('DB_NAME:', process.env.DB_NAME);
