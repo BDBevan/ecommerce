@@ -13,10 +13,10 @@ SO THAT my company can compete with other e-commerce companies
 
 ## Installation
 1. Clone the repository
-  - git clone https://github.com/yourusername/e-commerce-backend.git
+  - git clone https://github.com/BDBevan/ecommerce.git
   
 2. Navigate to the project directory
-  - cd e-commerce-backend
+  - cd ecommerce
 
 3. Install the needed packages
    - npm install
