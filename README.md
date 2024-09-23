@@ -11,6 +11,26 @@ AS A manager at an internet retail company
 I WANT a back end for my e-commerce website that uses the latest technologies
 SO THAT my company can compete with other e-commerce companies
 
+## Installation
+1. Clone the repository
+  - git clone https://github.com/yourusername/e-commerce-backend.git
+  
+2. Navigate to the project directory
+  - cd e-commerce-backend
+
+3. Install the needed packages
+   - npm install
+
+4. Create your .env file with your DB credentials
+   - DB_NAME=your_database_name
+   - DB_USER=your_postgresql_username
+   - DB_PASSWORD=your_postgresql_password
+
+5. Run the following commands to create and seed your database
+   - npx sequelize-cli db:create
+   - npx sequelize-cli db:seed:all
+
+
 ## API routes 
 The following API routes are available:
 
